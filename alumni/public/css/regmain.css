@@ -1,0 +1,126 @@
+body{
+  padding: 0;
+  margin: 0;
+  background-image: none;
+  font-family: sans-serif;
+  background-position: center;
+  background-size: cover;
+}
+.signup-box{
+  width: 440px;
+  height: 520px;
+  background-color:#FF7300;
+  color: #FF7300;
+  top: 60%;
+  left: 50%;
+  position: absolute;
+  box-sizing: border-box;
+  padding: 70px 30px;
+  transform: translate(-50%,-50%);
+
+}
+
+h1{
+  margin: 0;
+  padding: 0 0 20px;
+  text-align: right;
+  font-size: 20px;
+  font: bold;
+}
+.avatar{
+
+  width: 50px;
+  height: 40px;
+  border-radius: 50%;
+  position: absolute;
+  top: -50px;
+  left: calc(50%, -50%);
+}
+
+h1{
+  margin:0;
+  padding: 0 0 20px;
+  text-align: left;
+ 
+
+}
+.signup-box input{
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.signup-box input[type="text"], input[type="password"]{
+  border: #FF7300;
+ 
+  border-style: groove;
+  
+  outline: none;
+  height: 40px;
+  
+  font-size: 16px;
+}
+
+.signup-box input[type="text"], input[type="email"]{
+  border: #FF7300;
+  
+  border-style: groove;
+  outline: none;
+  height: 40px;
+  
+  font-size: 16px;
+}
+
+.signup-box input[type="text"], input[type="username"]{
+  border: #FF7300;
+  
+  border-style: groove;
+  outline: none;
+  height: 40px;
+ 
+  font-size: 16px;
+}
+
+
+.menu{
+  float: right;
+  list-style: none;
+  margin: 20px;
+}
+
+.menu li{
+  display: inline-block;
+  margin: 10px 5px;
+}
+
+.menu li a{
+  text-decoration: none;
+  color: #fff;
+  padding: 5px 10px;
+  font-family: sans-serif;
+  letter-spacing: 2px;
+  border-bottom: 1px solor #fff;
+}
+
+.menu li a:hover{
+  background: #FF7300;
+  border-bottom: 1px solid coral;
+  transition: .4s;
+}
+
+.nav{
+  background: #FF7300;
+  height: 55px;
+
+}
+
+
+.logo{
+  background: #FF7300;
+  height: 195px;
+  width: 150px;
+
+}
+.logo{
+  margin: 10px 50px;
+  height: 50px;
+}
